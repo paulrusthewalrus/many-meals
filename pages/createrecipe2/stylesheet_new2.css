@@ -1,0 +1,218 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+   background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+     background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+     background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #ffffff !important; /*3f51b5*/
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #ffffff !important; /*transparent*/
+  border: 0px solid black;
+  border-bottom: 3px solid black;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important; /*3f51b5*/
+  }
+}
+
+/* Styling up horizontal lines */
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#search {
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+/* When the search tab is hovered over */
+#search:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Original create tab */
+#create {
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+/* When the create tab is hovered over */
+#create:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Original categories tab */
+#categories {
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+/* When the categories tab is hovered over */
+#categories:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Removing anything special about the title link */
+.title a:link,a:visited,a:hover {
+  position: relative;
+  top: -6px;
+  color: black;
+  text-decoration: none;
+}
+
+.outlinebox {
+  background-color: white;
+}
+
+/* Another pixel adjustment due to h3> title problem */
+.content a:hover {
+  position: relative;
+  top: 0.1px;
+}
+
+/* Customisation of links */
+.content a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Pixel adjustment due to the h3> title problem */
+#search:hover,#categories:hover,#create:hover,.dropdown-content a:hover {
+  position: relative;
+  top: 1px;
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* Customise the picture (including making it circular) */
+.profile {
+    background-size: cover;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    transition: 0.2s;
+}
+
+/* Enlargen the profile picture when hovered over */
+.profile:hover {
+  width: 83px;
+  height: 83px;
+  transition: 0.2s;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* The next 3 brackets are for centering the items in the nav bar */
+.navbar-nav {
+    width: 65%;
+    text-align: center;
+}
+.navbar-nav>li {
+  float: initial;
+  line-height: 150px;
+}
+.nav>li {display:inline-block;}

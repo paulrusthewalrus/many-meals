@@ -1,0 +1,348 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+    background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+    background-image: url('../../resources/background_updated.png'); 
+  background-repeat: repeat; 
+  height: 100%;
+  max-width: 100%;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #ffffff !important; /*3f51b5*/
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #ffffff !important; /*transparent*/
+  border: 0px solid black;
+  border-bottom: 3px solid black;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important; /*3f51b5*/
+  }
+}
+
+#search {
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+/* When the search tab is hovered over */
+#search:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Original create tab */
+#create {
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+/* When the create tab is hovered over */
+#create:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Original categories tab */
+#categories {
+  /*border-left: 1px solid black;
+  border-right: 1px solid black;*/
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+/* When the categories tab is hovered over */
+#categories:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Styling up horizontal lines */
+hr {
+    border: 0;
+    height: 1px;
+    width: 85%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Removing anything special about the title link */
+.title a:link,a:visited,a:hover {
+  position: relative;
+  top: -6px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Another pixel adjustment due to h3> title problem */
+.content a:hover {
+  position: relative;
+  top: 0.1px;
+}
+
+/* Customisation of links */
+.content a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+#profpictable td {
+  padding: 10px;
+}
+
+#profpictable {
+    background-color: white;
+    border: 1px solid #b3b3b3;
+}
+
+.inputtables {
+  background-color: white;
+  border: 1px solid #b3b3b3;
+}
+
+.inputtables td {
+  padding: 10px;
+}
+
+/* Pixel adjustment due to the h3> title problem */
+#search:hover,#categories:hover,#create:hover,.dropdown-content a:hover {
+  position: relative;
+  top: 1px;
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* Customise the picture (including making it circular) */
+.profile {
+    background-size: cover;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    transition: 0.2s;
+}
+
+/* Enlargen the profile picture when hovered over */
+.profile:hover {
+  width: 83px;
+  height: 83px;
+  transition: 0.2s;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* The next 3 brackets are for centering the items in the nav bar */
+.navbar-nav {
+    width: 65%;
+    text-align: center;
+}
+.navbar-nav>li {
+  float: initial;
+  line-height: 150px;
+}
+.nav>li {display:inline-block;}
+
+/*FOR THE TAG */
+.scrollbar-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-deep-purple::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-deep-purple::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #512da8; }
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-cyan::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #00bcd4; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.bordered-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #512da8; }
+
+.bordered-deep-purple::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.bordered-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #00bcd4; }
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.example-1 {
+position: relative;
+overflow-y: scroll;
+height: 140px; }
+
+.bck {
+  text-align: center;
+  background-color: white;
+  font-size: 14px;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.bck:hover {
+  background-color: #ddd;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.perm {
+  background-color: #dfa;
+}
+
+#addtag {
+  color: black;
+}
+
+#addtag:hover {
+  color: #3288bf;
+  width: 15px;
+  transition: 0.2s;
+}
