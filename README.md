@@ -17,7 +17,20 @@ A social platform for sharing recipes, following users, and finding new recipes 
 
 ## Visuals
 
-(coming soon)
+### Homepage
+![homepage](/visuals/pic1.png)
+
+### Example Recipe Page
+![recipe](/visuals/pic2.png)
+
+### Catalogue
+![catalogue](/visuals/pic3.png)
+
+### Register Page
+![register](/visuals/pic4.png)
+
+### Successful User Registration
+![success](/visuals/pic5.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
