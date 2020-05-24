@@ -17,7 +17,7 @@ A social platform for sharing recipes, following users, and finding new recipes 
 
 ## Visuals
 
-(coming soon)
+![Alt Text](/resources/anon_food.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
