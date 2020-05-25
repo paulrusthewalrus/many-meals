@@ -15,6 +15,10 @@ A social platform for sharing recipes, following users, and finding new recipes 
 - Sending emails with a forgotten password
 - Fully customisable profile
 
+## Dependancies
+- Bootstrap
+- MeekroDB
+
 ## Visuals
 
 ### Homepage
